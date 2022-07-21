@@ -12,11 +12,11 @@ const Header = () => {
             src={images.testimg.src}
             alt="pic"
           />
-          <span className="font-poppins text-sm font-medium text-orange">
+          <span className="font-poppins text-lg font-medium text-orange">
             Cuba Libre
           </span>
 
-          <p className="mt-0.5 font-poppins text-xs font-normal text-gray-text">
+          <p className="mt-0.5 font-poppins text-sm font-normal text-gray-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
@@ -29,10 +29,10 @@ const Header = () => {
             src={images.testimg2.src}
             alt="pic"
           />
-          <span className="font-poppins text-sm font-medium text-orange">
-            Cuba Libre
+          <span className="font-poppins text-lg font-medium text-orange">
+            Mojito
           </span>
-          <p className="mt-0.5 font-poppins text-xs font-normal text-gray-text">
+          <p className="mt-0.5 font-poppins text-sm font-normal text-gray-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </p>
         </div>
@@ -45,10 +45,10 @@ const Header = () => {
             src={images.testimg3.src}
             alt="pic"
           />
-          <span className="font-poppins text-sm font-medium text-orange ">
-            Cuba Libre
+          <span className="font-poppins text-lg font-medium text-orange ">
+            Daiquiri
           </span>
-          <p className="mt-0.5 font-poppins text-xs font-normal text-gray-text">
+          <p className="mt-0.5 font-poppins text-sm font-normal text-gray-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </p>
         </div>
