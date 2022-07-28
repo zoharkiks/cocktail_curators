@@ -1,23 +1,22 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center">Cocktail Curators</h3> 
+<p> <a href="https://cocktail-curators.vercel.app/"><h3 align="center" >Live Site</h3></a>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-## Deploy your own
+<p align="center">
+<img src="https://i.ibb.co/SNCfswB/Cocktail-Curators.png" alt="Cocktail-Curators"  height="75%" width="75%" >
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Introduction 🚀
+<p>Cocktail Curators is a simple web app through which you can find the recipes of your favourite cocktails. </p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+<h3 align="left">Languages and Tools 💻 </h3>
+<p>
+<a href="https://nextjs.org/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-2/15/nextjs-128.png" alt="c" width="7%" height="7%"/></a>
+<a href="https://code.visualstudio.com/" target="_blank"> <img src="https://img.icons8.com/fluent/344/visual-studio-code-2019.png" alt="c" width="7%" height="7%"/></a>
+<a href="https://tailwindcss.com/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/teenyicons-outline-vol-3/15/tailwind-128.png" alt="c" width="7%" height="7%"/></a>
+</p>
+<h3 align="left">How to Install ❓ </h3>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<img src="https://i.ibb.co/ySbxh1v/How-to-Install.png" alt="How-to-Install" height="60%" width="60%" >
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
