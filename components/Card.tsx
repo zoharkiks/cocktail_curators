@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useRouter } from "next/router";
 import DrinksContext from "../drinksContext";
+import Image from 'next/image'
 
 const Card = ({
   img,
@@ -24,11 +25,15 @@ const Card = ({
     <div>
       <div className="flex flex-col items-start justify-center">
         <div className="h-[271px] w-[209px] ">
-          <img
+          <Image
             className="mb-3 h-full w-full object-cover cursor-pointer"
             src={img}
             alt="pic"
             onClick={handleClick}
+            height={271}
+            width={209}
+            placeholder='blur'
+            blurDataURL={img}
           />
           <span className="font-poppins text-lg font-medium text-orange">
             {title}

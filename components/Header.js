@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { images } from "../constants";
+import Image from 'next/image'
+
 
 const Header = () => {
   return (
@@ -8,11 +10,19 @@ const Header = () => {
       {/* SLide 1 */}
       <div className="flex flex-col items-start justify-center">
         <div className="h-[271px] w-[209px] ">
-          <img
-            className="mb-3 h-full w-full object-cover"
+          <div className="object-cover mb-3  ">
+          <Image
+            className=" "
             src={images.testimg.src}
             alt="pic"
+            height={271}
+            width={209}
+            placeholder="blur"
+            blurDataURL="default"
+            
           />
+          </div>
+       
           <span className="font-poppins text-lg font-medium text-orange">
             Cuba Libre
           </span>

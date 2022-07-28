@@ -3,11 +3,12 @@ import React, { useContext } from "react";
 import { images } from "../../constants";
 import { Icon } from "@iconify/react";
 import DrinksContext from "../../drinksContext";
+import { ThreeDots } from  'react-loader-spinner'
 
 
 const Details = () => {
 
-const {details} = useContext(DrinksContext)
+const {details,loading} = useContext(DrinksContext)
 const router = useRouter();
 
 
@@ -16,11 +17,14 @@ const router = useRouter();
   return (
     <div className="grid grid-cols-2 	  ">
       {/* left side */}
-      <div className="h-screen">
+      {loading ?<div className="flex flex-col justify-center items-center h-screen">
+      <ThreeDots/>
+        </div>: <div className="h-screen">
         <img className="h-full object-cover" src={details?.strDrinkThumb} alt="" />
-      </div>
+      </div>}
+      
       {/* right side */}
-      <div className="flex flex-col items-center pt-[55px] ">
+      <div className="flex flex-col items-center pt-[55px]  ">
       <Icon onClick={()=>router.back()} className="h-10 w-10 cursor-pointer absolute right-5 top-5" icon="carbon:previous-filled" />
 
         <h1 className="font-worldwide text-center text-[64px] tracking-[4px] text-gray-dark">
@@ -83,9 +87,12 @@ const router = useRouter();
             <h2 className="font-blooming text-[34px] tracking-[5px] text-gray-text">
               RECIPE
             </h2>
-            <p className="mt-6 font-poppins text-sm leading-[26px] text-gray-text">
+            <div className=" overflow-y-auto px-2 max-h-[10rem] scrollbar-thin scrollbar-thumb-orange scrollbar-track-gray-light scrollbar-track-rounded-full scrollbar-thumb-rounded-full">
+            <p className="mt-6 font-poppins text-sm leading-[26px] text-gray-text overflow-y-auto">
             {details?.strInstructions}
             </p>
+            </div>
+            
           </div>
         </div>
       </div>

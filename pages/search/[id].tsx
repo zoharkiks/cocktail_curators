@@ -13,6 +13,8 @@ const SearchResults = () => {
         <span>YOUR SEARCH RESULTS</span>
       </div>
       
+
+      
       {drinks === null ? (
         <div className="flex items-center justify-center">
           <h1 className=" p-[10rem] font-poppins text-3xl font-semibold">

@@ -36,5 +36,10 @@ module.exports = {
 			// => @media (max-width: 639px) { ... }
 		},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
+  variants: {
+    scrollbar: ['rounded']
+}
 }

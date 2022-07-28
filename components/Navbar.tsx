@@ -57,7 +57,7 @@ const Navbar = () => {
             className={styles.search}
             placeholder="SEARCH"
             onChange={(e) => setSearchTerm(e.target.value)}
-            minlength={2}
+            minLength={2}
           />
         </form>
       </div>
