@@ -6,7 +6,7 @@ import { Navbar } from '../components'
 
 function MyApp({ Component, pageProps }: AppProps) {
   
-  return <DrinksProvider><Navbar/> <Component {...pageProps} /></DrinksProvider>
+  return <DrinksProvider> <Component {...pageProps} /></DrinksProvider>
 }
 
 export default MyApp

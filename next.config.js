@@ -4,6 +4,8 @@ module.exports = {
     domains: ['www.thecocktaildb.com'],
   },
   reactStrictMode: true,
-
+  experimental: {
+    scrollRestoration: true,
+  },
 }
 
