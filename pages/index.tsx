@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { createContext } from "react";
 import { Header, Navbar } from "../components/";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { images } from "../constants";
 
 const Home: NextPage = () => {
