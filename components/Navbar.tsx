@@ -3,6 +3,7 @@ import { images } from "../constants";
 import { clearInput } from "../helpers/clearInput";
 import { useRouter } from "next/router";
 import DrinksContext from "../drinksContext";
+import Link from 'next/link'
 
 const styles = {
   navbar:
@@ -38,15 +39,23 @@ const Navbar = () => {
 
       {/* navitems */}
       <div className={styles.navitems}>
-        <a className={styles.link} href="">
+        <Link href="/">
+        <a className={styles.link} >
           DRINKS
         </a>
-        <a className={styles.link} href="">
+        </Link>
+        <Link href="/about">
+        <a className={styles.link} >
           ABOUT
         </a>
-        <a className={styles.link} href="">
+        </Link>
+       
+       <Link href="/contact">
+       <a className={styles.link} >
           CONTACT ME
         </a>
+       </Link>
+        
       </div>
 
       {/* search */}
