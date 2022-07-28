@@ -6,7 +6,7 @@ const SearchResults = () => {
   const { drinks } = useContext(DrinksContext);
 
   return (
-    <div className="h-screen bg-[url('../assets/bg.png')] bg-contain bg-center bg-no-repeat  ">
+    <div className="h-[85vh] bg-[url('../assets/bg.png')] bg-contain bg-top bg-no-repeat  ">
       {drinks === null ? (
         <div className="flex items-center justify-center">
           <h1 className=" p-[10rem] font-poppins text-3xl font-semibold">

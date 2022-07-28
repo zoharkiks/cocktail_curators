@@ -7,7 +7,7 @@ import { images } from "../constants";
 
 const Home: NextPage = () => {
   return (
-    <div className="h-screen bg-[url('../assets/bg.png')] bg-contain bg-center bg-no-repeat">
+    <div className="">
       <Head>
         <title>Cocktail Curators</title>
         <link rel="icon" href="/favicon.ico" />
