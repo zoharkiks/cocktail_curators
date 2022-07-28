@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { Card } from "../../components";
 import DrinksContext from "../../drinksContext";
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout";
 import { ThreeDots } from "react-loader-spinner";
 
 
