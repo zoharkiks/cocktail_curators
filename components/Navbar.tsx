@@ -17,7 +17,7 @@ const styles = {
     "flex border-2 border-gray-light rounded-[10px] px-4 py-1 outline-none tracking-[2px] text-xs w-[75%]  ",
   link: "hover:border-b-2 hover:border-orange focus:outline-none",
   menuIcon: "w-8 h-8 hidden sm:block ",
-  menu: "hidden  bg-orange/7e0 rounded-l-xl backdrop-blur-[10px]  py-6 px-4 h-[30rem] w-[75%] absolute top-[0px] right-[0px] z-10 sm:flex flex-col ",
+  menu: "hidden  bg-orange/70 rounded-l-xl backdrop-blur-[10px]  py-6 px-4 h-[30rem] w-[75%] absolute top-[0px] right-[0px] z-10 sm:flex flex-col ",
   close: "flex justify-end items-center cursor-pointer",
   closeIcon: "w-5 h-5",
 };
