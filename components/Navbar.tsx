@@ -25,13 +25,14 @@ const styles = {
 const Navbar = () => {
   const router = useRouter();
 
-  const {setDrinks, fetchDrinks, searchTerm, setSearchTerm } = useContext(DrinksContext);
+  const { setDrinks, fetchDrinks, searchTerm, setSearchTerm } =
+    useContext(DrinksContext);
 
   // states
   const [menu, setMenu] = useState(false);
 
   const submitHandler = (e: any) => {
-    setMenu(false)
+    setMenu(false);
     e.preventDefault();
     setDrinks([]);
     fetchDrinks(searchTerm);
