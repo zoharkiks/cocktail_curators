@@ -18,7 +18,7 @@
 
 <h3 align="left">Planned Features 📅 </h3>
 <ul>
-<li> Mobile responsive 📱 </li>
+<li><s> Mobile responsive </s>📱 </li>
 </ul>
 <br>
 
