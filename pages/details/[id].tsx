@@ -15,22 +15,22 @@ const router = useRouter();
 
   
   return (
-    <div className="grid grid-cols-2 	  ">
+    <div className="grid grid-cols-2  md:flex flex-col	  ">
       {/* left side */}
-      {loading ?<div className="flex flex-col justify-center items-center h-screen">
+      {loading ?<div className="flex flex-col justify-center items-center h-screen  ">
       <ThreeDots/>
-        </div>: <div className="h-screen">
-        <img className="h-full object-cover" src={details?.strDrinkThumb} alt="" />
+        </div>: <div className="h-screen md:h-full">
+        <img className="h-full object-cover md:h-1/2 md:w-full" src={details?.strDrinkThumb} alt="" />
       </div>}
       
       {/* right side */}
-      <div className="flex flex-col items-center pt-[55px]  ">
-      <Icon onClick={()=>router.back()} className="h-10 w-10 cursor-pointer absolute right-5 top-5" icon="carbon:previous-filled" />
+      <div className="flex flex-col items-center pt-[55px] sm:py-6 md:  ">
+      <Icon onClick={()=>router.back()} className="h-10 w-10 cursor-pointer absolute right-5 top-5 md:hidden" icon="carbon:previous-filled" />
 
-        <h1 className="font-worldwide text-center text-[64px] tracking-[4px] text-gray-dark">
+        <h1 className="font-worldwide text-center text-[64px] tracking-[4px] text-gray-dark sm:text-[50px]">
         {details?.strDrink}
         </h1>
-        <div className="mt-5 mb-[20px] flex  items-center space-x-2 text-gray-text">
+        <div className="mt-5 mb-[20px] flex  sm:mt-2 items-center space-x-2 text-gray-text">
           <Icon
             className="h-[45px] w-[45px] text-gray-dark"
             icon="emojione-monotone:wine-glass"
@@ -38,7 +38,7 @@ const router = useRouter();
         <span className="font-poppins uppercase">{details?.strGlass}</span>
         </div>
         {/* Ingredients */}
-        <div className="flex w-full flex-col justify-center px-[68px]">
+        <div className="flex w-full flex-col justify-center px-[68px] lg:h-full sm:px-10">
           <h2 className="font-blooming text-[34px] tracking-[5px] text-gray-text">
             INGREDIENTS
           </h2>

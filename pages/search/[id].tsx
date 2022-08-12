@@ -4,7 +4,6 @@ import DrinksContext from "../../drinksContext";
 import Layout from "../../components/layout";
 import { ThreeDots } from "react-loader-spinner";
 
-
 const SearchResults = () => {
   const { drinks, loading } = useContext(DrinksContext);
 
@@ -29,7 +28,7 @@ const SearchResults = () => {
         )}
 
         {/* Search Results */}
-        <div className="grid grid-cols-3 place-items-center gap-y-40 px-[139px] py-[90px]">
+        <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 sm:gap-y-[7rem]  place-items-center lg:gap-x-20 gap-y-40 px-[139px] py-[60px]  lg:px-[100px]">
           {drinks?.map((drink: any) => (
             <Card
               key={drink.idDrink}

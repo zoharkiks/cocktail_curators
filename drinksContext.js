@@ -38,7 +38,8 @@ export function DrinksProvider({ children }) {
         setSearchTerm,
         fetchDetails,
         details,
-        loading
+        loading,
+        setDrinks
       }}
     >
       {children}

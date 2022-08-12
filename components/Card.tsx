@@ -24,7 +24,7 @@ const Card = ({
   return (
     <div>
       <div className="flex flex-col items-start justify-center  ">
-        <div className="h-[271px] w-[209px] ">
+        <div className="h-[271px] w-[209px]   ">
           <Image
             className="mb-3 h-full w-full object-cover cursor-pointer"
             src={img}
