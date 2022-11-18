@@ -5,7 +5,10 @@
 @font-face {
     font-family: "WorldwideHeadline";
     src: url("../public/fonts/WorldwideHeadline.ttf");
+  }
 
+@font-face {
+  
     font-family: "Blooming Elegant Sans";
     src: url("../public/fonts/Blooming\ Elegant\ Sans.otf");
 
