@@ -1,7 +1,8 @@
 <h1 align="center">Cocktail Curators</h3> 
 <br>
 
-<p> <a href="https://cocktail-curators.vercel.app/"><h3 align="center" >Live Site</h3></a>
+<p align="center"><a href="https://cocktail-curators.vercel.app/">Live Site</a></p>
+
 <br>
 
 
